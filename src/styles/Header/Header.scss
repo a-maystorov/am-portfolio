@@ -1,0 +1,174 @@
+@import '../../variables/variables.scss';
+
+.header {
+  background: url('../../assets/liquid-cheese.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 600px;
+  width: 100%;
+  padding: 6rem 4vw;
+
+  & h1 {
+    font-size: 6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  & p {
+    font-size: 2rem;
+    text-align: center;
+    max-width: 70%;
+    padding-top: 4rem;
+  }
+
+  @media screen and (max-width: 1024px) {
+    & h1 {
+      font-size: 4rem;
+    }
+
+    & p {
+      font-size: 1.6rem;
+      max-width: 80%;
+    }
+  }
+
+  @media screen and (max-width: 730px) {
+    & h1 {
+      font-size: 3.2rem;
+    }
+
+    & p {
+      font-size: 1.4rem;
+    }
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .header {
+    justify-content: space-around;
+
+    & h1,
+    & p {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+
+  & svg {
+    position: relative;
+    display: block;
+    width: calc(140% + 1px);
+    height: 140px;
+    transform: rotateY(180deg);
+  }
+
+  & .shape-fill {
+    fill: $bg-primary;
+  }
+
+  @media screen and (max-width: 768px) {
+    & svg {
+      height: 80px;
+    }
+  }
+}
+
+.btn {
+  background: $gray-primary;
+  color: $text-secondary;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.3rem;
+  font-weight: 500;
+  font-size: 2rem;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  padding: 1.5rem 8rem;
+  margin-top: 6rem;
+
+  &:hover {
+    transform: translateY(-5%);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .btn {
+    font-size: 1.8;
+    padding: 1.2rem 6rem;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .btn {
+    font-size: 1.6;
+    padding: 1rem 5rem;
+  }
+}
+
+.mouse {
+  width: 25px;
+  height: 40px;
+  border: 2px solid $gray-primary;
+  border-radius: 60px;
+  position: relative;
+  margin-top: 8rem;
+
+  &::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 7px;
+    left: 52.5%;
+    transform: translateX(-52.5%);
+    background-color: $gray-primary;
+    border-radius: 50%;
+    animation: wheel 2s infinite;
+  }
+}
+
+@keyframes wheel {
+  0% {
+    opacity: 1;
+    top: 7px;
+  }
+
+  100% {
+    opacity: 0;
+    top: 28px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .btn {
+    margin-top: 3rem;
+  }
+  .mouse {
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .btn {
+    margin-top: 1.5rem;
+  }
+  .mouse {
+    margin-top: 2.5rem;
+  }
+}

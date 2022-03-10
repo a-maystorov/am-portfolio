@@ -17,7 +17,8 @@ body {
     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1.6rem;
   line-height: 1.5;
-  color: #111;
+  color: #ececec;
+  background: #f2f4ff;
   height: 100vh;
   overflow-x: hidden;
 }
@@ -31,15 +32,14 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #6649b8;
+  background: #dd3f31;
 }
 
 main {
   margin-left: 6rem;
-  padding: 1rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 730px) {
   main {
     margin: 0;
   }

@@ -2,15 +2,16 @@
 
 .nav {
   position: fixed;
-  background-color: $bg-primary;
+  background-color: $gray-primary;
   transition: width 200ms ease;
+  z-index: 999;
 
   & .logo {
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
     color: $text-secondary;
-    background: $bg-secondary;
+    background: $gray-secondary;
     font-size: 1.5rem;
     letter-spacing: 0.3ch;
 
@@ -48,7 +49,7 @@
 
     &:hover {
       filter: grayscale(0%) opacity(1);
-      background: $bg-secondary;
+      background: $gray-secondary;
       color: $text-secondary;
     }
 
@@ -58,7 +59,7 @@
     }
 
     & svg {
-      fill: #6749b8;
+      fill: $red-primary;
       min-width: 2rem;
       max-width: 25px;
       margin: 0 1.5rem;
@@ -67,14 +68,12 @@
 
     & .fa-primary,
     & .fa-secondary {
-      color: #6749b8;
+      color: $red-primary;
     }
   }
 }
 
-// Small screens
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 730px) {
   .nav {
     bottom: 0;
     width: 100vw;
@@ -98,9 +97,7 @@
   }
 }
 
-// Large screens
-
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 730px) {
   .nav {
     top: 0;
     width: 6rem;

@@ -1,8 +1,9 @@
 .nav {
   position: fixed;
-  background-color: #23232e;
+  background-color: #1d1d1d;
   -webkit-transition: width 200ms ease;
   transition: width 200ms ease;
+  z-index: 999;
 }
 
 .nav .logo {
@@ -77,7 +78,7 @@
 }
 
 .nav .nav-link svg {
-  fill: #6749b8;
+  fill: #dd3f31;
   min-width: 2rem;
   max-width: 25px;
   margin: 0 1.5rem;
@@ -87,10 +88,10 @@
 
 .nav .nav-link .fa-primary,
 .nav .nav-link .fa-secondary {
-  color: #6749b8;
+  color: #dd3f31;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 730px) {
   .nav {
     bottom: 0;
     width: 100vw;
@@ -115,7 +116,7 @@
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 730px) {
   .nav {
     top: 0;
     width: 6rem;

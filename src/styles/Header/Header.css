@@ -1,1 +1,196 @@
-/* No CSS *//*# sourceMappingURL=Header.css.map */
+.header {
+  background: url("../../assets/liquid-cheese.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 600px;
+  width: 100%;
+  padding: 6rem 4vw;
+}
+
+.header h1 {
+  font-size: 6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.header p {
+  font-size: 2rem;
+  text-align: center;
+  max-width: 70%;
+  padding-top: 4rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .header h1 {
+    font-size: 4rem;
+  }
+  .header p {
+    font-size: 1.6rem;
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .header h1 {
+    font-size: 3.2rem;
+  }
+  .header p {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .header {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .header h1,
+  .header p {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(140% + 1px);
+  height: 140px;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.wave .shape-fill {
+  fill: #f2f4ff;
+}
+
+@media screen and (max-width: 768px) {
+  .wave svg {
+    height: 80px;
+  }
+}
+
+.btn {
+  background: #1d1d1d;
+  color: #ececec;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.3rem;
+  font-weight: 500;
+  font-size: 2rem;
+  border-radius: 5px;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+  padding: 1.5rem 8rem;
+  margin-top: 6rem;
+}
+
+.btn:hover {
+  -webkit-transform: translateY(-5%);
+          transform: translateY(-5%);
+}
+
+@media screen and (max-width: 1024px) {
+  .btn {
+    font-size: 1.8;
+    padding: 1.2rem 6rem;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .btn {
+    font-size: 1.6;
+    padding: 1rem 5rem;
+  }
+}
+
+.mouse {
+  width: 25px;
+  height: 40px;
+  border: 2px solid #1d1d1d;
+  border-radius: 60px;
+  position: relative;
+  margin-top: 8rem;
+}
+
+.mouse::before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  top: 7px;
+  left: 52.5%;
+  -webkit-transform: translateX(-52.5%);
+          transform: translateX(-52.5%);
+  background-color: #1d1d1d;
+  border-radius: 50%;
+  -webkit-animation: wheel 2s infinite;
+          animation: wheel 2s infinite;
+}
+
+@-webkit-keyframes wheel {
+  0% {
+    opacity: 1;
+    top: 7px;
+  }
+  100% {
+    opacity: 0;
+    top: 28px;
+  }
+}
+
+@keyframes wheel {
+  0% {
+    opacity: 1;
+    top: 7px;
+  }
+  100% {
+    opacity: 0;
+    top: 28px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .btn {
+    margin-top: 3rem;
+  }
+  .mouse {
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .btn {
+    margin-top: 1.5rem;
+  }
+  .mouse {
+    margin-top: 2.5rem;
+  }
+}
+/*# sourceMappingURL=Header.css.map */
