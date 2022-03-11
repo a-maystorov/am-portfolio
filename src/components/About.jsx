@@ -50,6 +50,7 @@ const About = () => {
             <span className="skills__skill">GIT</span>
             <span className="skills__skill">Github</span>
             <span className="skills__skill">Responsive Design</span>
+            <span className="skills__skill">Figma</span>
             <span className="skills__skill">Node Basics</span>
             <span className="skills__skill">Express Basics</span>
             <span className="skills__skill">MongoDB Basics</span>
