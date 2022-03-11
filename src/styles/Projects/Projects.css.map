@@ -1,8 +1,11 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAGA,AAAA,SAAS,CAAC;EACR,KAAK,ECCU,OAAO;EDAtB,UAAU,ECFG,OAAO;EDGpB,MAAM,EAAE,KAAK;EACb,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,MAAM;CACnB",
     "sources": [
-        "Projects.scss"
+        "Projects.scss",
+        "../../variables/variables.scss",
+        "../../mixins/mixins.scss",
+        "../../variables/variables.scss"
     ],
     "names": [],
     "file": "Projects.css"

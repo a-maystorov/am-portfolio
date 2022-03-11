@@ -1,0 +1,10 @@
+@import '../../variables/variables.scss';
+@import '../../mixins/mixins.scss';
+
+.Projects {
+  color: $gray-secondary;
+  background: $bg-secondary;
+  height: 400px;
+  font-size: 6rem;
+  text-align: center;
+}

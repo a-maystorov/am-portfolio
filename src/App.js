@@ -3,10 +3,11 @@ import React from 'react';
 // Components
 import Navbar from './components/Navbar';
 import Header from './components/Header';
+import About from './components/About';
+import Projects from './components/Projects';
 
 // Styles
 import './App.css';
-import About from './components/About';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <main>
         <Header />
         <About />
+        <Projects />
       </main>
     </>
   );

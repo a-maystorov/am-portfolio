@@ -13,6 +13,7 @@
   color: #141418;
   margin-top: 6rem;
   padding: 6rem;
+  position: relative;
 }
 
 .About header h2 {
@@ -29,7 +30,7 @@
   top: calc(100% + 1.5rem);
   height: 5px;
   width: 4rem;
-  background: #dd3f31;
+  background: #d73737;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -125,7 +126,7 @@
 }
 
 .About main .about__personal-profile .btn-contact {
-  background: #dd3f31;
+  background: #d73737;
   margin-top: 2rem;
   max-width: 280px;
   text-transform: uppercase;
@@ -248,6 +249,42 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+}
+
+.About footer .triangle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.About footer .triangle svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 180px;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.About footer .triangle .shape-fill {
+  fill: #fafafa;
+}
+
+@media screen and (max-width: 1024px) {
+  .About footer .triangle svg {
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .About footer .triangle svg {
+    height: 60px;
   }
 }
 
