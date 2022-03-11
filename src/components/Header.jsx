@@ -2,7 +2,7 @@ import '../styles/Header/Header.css';
 
 const Header = () => {
   return (
-    <header className="header" id="home">
+    <header className="header" id="Home">
       <h1>Hi, I'm Alkin Maystorov</h1>
       <p>
         A Frontend focused Web Developer that loves building Websites and Web
@@ -21,7 +21,7 @@ const Header = () => {
             className="shape-fill"></path>
         </svg>
       </div>
-      <a href="#Projects" className="btn">
+      <a href="#Projects" className="btn-projects">
         Projects
       </a>
       <div className="mouse"></div>

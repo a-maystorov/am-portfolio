@@ -6,6 +6,7 @@ import Header from './components/Header';
 
 // Styles
 import './App.css';
+import About from './components/About';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Navbar />
       <main>
         <Header />
+        <About />
       </main>
     </>
   );

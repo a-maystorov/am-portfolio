@@ -1,0 +1,19 @@
+@import '../variables/variables.scss';
+
+@mixin btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.3rem;
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  padding: 1.5rem 8rem;
+  color: #b6b6b6;
+
+  &:hover {
+    transform: translateY(-5%);
+    color: #ececec;
+  }
+}

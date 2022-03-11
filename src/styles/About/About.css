@@ -1,1 +1,265 @@
-/* No CSS *//*# sourceMappingURL=About.css.map */
+.About {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8rem;
+  color: #141418;
+  margin-top: 6rem;
+  padding: 6rem;
+}
+
+.About header h2 {
+  position: relative;
+  font-size: 4rem;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.About header h2::after {
+  content: '';
+  position: absolute;
+  top: calc(100% + 1.5rem);
+  height: 5px;
+  width: 4rem;
+  background: #dd3f31;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .About header h2 {
+    font-size: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .About header h2 {
+    font-size: 2.6rem;
+  }
+}
+
+.About header p {
+  font-size: 2rem;
+  font-weight: 500;
+  max-width: 70%;
+  text-align: center;
+  margin-inline: auto;
+  margin-top: 4rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .About header p {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .About header p {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .About header p {
+    max-width: 100%;
+  }
+}
+
+.About main {
+  margin-inline: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8rem;
+}
+
+.About main .about__personal-profile {
+  max-width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+}
+
+.About main .about__personal-profile h3 {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.About main .about__personal-profile p {
+  font-size: 1.8rem;
+  line-height: 1.7;
+  color: #555;
+}
+
+@media screen and (max-width: 1024px) {
+  .About main .about__personal-profile h3 {
+    font-size: 2rem;
+  }
+  .About main .about__personal-profile p {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .About main .about__personal-profile h3 {
+    font-size: 1.8rem;
+  }
+  .About main .about__personal-profile p {
+    font-size: 1.4rem;
+  }
+}
+
+.About main .about__personal-profile .btn-contact {
+  background: #dd3f31;
+  margin-top: 2rem;
+  max-width: 280px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.3rem;
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+  padding: 1.5rem 8rem;
+  color: #b6b6b6;
+}
+
+.About main .about__personal-profile .btn-contact:hover {
+  -webkit-transform: translateY(-5%);
+          transform: translateY(-5%);
+  color: #ececec;
+}
+
+@media screen and (max-width: 1024px) {
+  .About main .about__personal-profile .btn-contact {
+    font-size: 1.8rem;
+    padding: 1.2rem 6rem;
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .About main .about__personal-profile .btn-contact {
+    font-size: 1.6rem;
+    padding: 1rem 5rem;
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .About main .about__personal-profile .btn-contact {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .About main .about__personal-profile {
+    max-width: 100%;
+  }
+}
+
+.About main .about__skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+}
+
+.About main .about__skills h3 {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1024px) {
+  .About main .about__skills h3 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .About main .about__skills h3 {
+    font-size: 1.8rem;
+  }
+}
+
+.About main .about__skills .skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.5rem;
+}
+
+.About main .about__skills .skills .skills__skill {
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  background: rgba(153, 153, 153, 0.2);
+  border-radius: 5px;
+  font-weight: 600;
+  color: #666;
+}
+
+@media screen and (max-width: 1024px) {
+  .About main .about__skills .skills .skills__skill {
+    font-size: 1.4rem;
+    padding: 0.8rem 1.8rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .About main .about__skills .skills .skills__skill {
+    font-size: 1.3rem;
+    padding: 0.6rem 1.6rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .About main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .About {
+    padding: 4rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .About {
+    padding: 2rem;
+  }
+}
+/*# sourceMappingURL=About.css.map */

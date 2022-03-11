@@ -91,7 +91,7 @@
   color: #dd3f31;
 }
 
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 729px) {
   .nav {
     bottom: 0;
     width: 100vw;
