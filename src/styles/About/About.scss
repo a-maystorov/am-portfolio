@@ -116,6 +116,7 @@
         background: $red-primary;
         margin-top: 2rem;
         max-width: 280px;
+        z-index: 990;
         @include btn;
       }
 
@@ -216,12 +217,13 @@
       overflow: hidden;
       line-height: 0;
       transform: rotate(180deg);
+      z-index: -990;
 
       & svg {
         position: relative;
         display: block;
         width: calc(100% + 1.3px);
-        height: 180px;
+        height: 200px;
         transform: rotateY(180deg);
       }
 

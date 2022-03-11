@@ -78,7 +78,7 @@
 }
 
 .nav .nav-link svg {
-  fill: #dd3f31;
+  fill: #d73737;
   min-width: 2rem;
   max-width: 25px;
   margin: 0 1.5rem;
@@ -88,7 +88,7 @@
 
 .nav .nav-link .fa-primary,
 .nav .nav-link .fa-secondary {
-  color: #dd3f31;
+  color: #d73737;
 }
 
 @media only screen and (max-width: 729px) {
