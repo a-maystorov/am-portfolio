@@ -8,6 +8,11 @@
   padding: 0;
 }
 
+::selection {
+  color: #ececec;
+  background: #d73737;
+}
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;

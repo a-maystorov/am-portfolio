@@ -1,4 +1,5 @@
 import '../styles/Projects/Projects.css';
+import ProjectsCarousel from './ProjectsCarousel/ProjectsCarousel';
 
 const Projects = () => {
   return (
@@ -11,6 +12,7 @@ const Projects = () => {
           to build them
         </p>
       </header>
+      <ProjectsCarousel />
     </section>
   );
 };

@@ -61,7 +61,7 @@ const About = () => {
         </article>
       </main>
       <footer>
-        <div class="triangle">
+        <div className="triangle">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +69,7 @@ const About = () => {
             preserveAspectRatio="none">
             <path
               d="M1200 0L0 0 892.25 114.72 1200 0z"
-              class="shape-fill"></path>
+              className="shape-fill"></path>
           </svg>
         </div>
       </footer>
