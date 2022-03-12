@@ -6,7 +6,7 @@ const About = () => {
       <header>
         <h2>About me</h2>
         <p>
-          In this section you will find more information about me, what I do,
+          In this section, you will find more information about me, what I do,
           and my current skills in terms of programming and technology
         </p>
       </header>
