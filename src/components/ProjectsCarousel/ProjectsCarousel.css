@@ -1,0 +1,209 @@
+.carousel-wrapper {
+  width: 100%;
+  max-width: 900px;
+}
+
+.rec.rec-swipable {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.project {
+  max-height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.project img {
+  background-color: #1d1d1d;
+  border-radius: 5px;
+  width: 98%;
+  height: 100%;
+  padding: 1rem;
+  -webkit-box-shadow: 0px 11px 9px -6px rgba(29, 29, 29, 0.59);
+          box-shadow: 0px 11px 9px -6px rgba(29, 29, 29, 0.59);
+}
+
+.project main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+  margin: 0;
+  margin-top: 2rem;
+  padding: 2rem;
+  width: 100%;
+}
+
+.project main .project-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.5rem;
+}
+
+.project main .project-details svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+@media screen and (max-width: 730px) {
+  .project main .project-details svg {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+}
+
+.project main .project-details .build-tools {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3rem;
+}
+
+.project main .project-details .build-tools .js {
+  fill: #f5cb42;
+}
+
+.project main .project-details .build-tools .css {
+  fill: #4284f5;
+}
+
+.project main .project-details .build-tools .html {
+  fill: #bd312a;
+}
+
+.project main .project-details .build-tools .react {
+  fill: #0cbce8;
+}
+
+.project main .project-details .build-tools::after {
+  content: '';
+  position: absolute;
+  top: calc(100% + 1.5rem);
+  height: 5px;
+  width: 50%;
+  background: #1d1d1d;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 5px;
+}
+
+.project main .project-details p {
+  color: #1d1d1d;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1024px) {
+  .project main .project-details p {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .project main .project-details p {
+    font-size: 1.6rem;
+  }
+}
+
+.project main .project-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2.5rem;
+  margin-top: 2rem;
+}
+
+.project main .project-links svg {
+  cursor: pointer;
+  fill: #1d1d1d;
+  width: 4rem;
+  height: 4rem;
+}
+
+.project main .project-links svg:hover {
+  fill: #d73737;
+}
+
+@media screen and (max-width: 730px) {
+  .project main .project-links svg {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+}
+
+.rec.rec-arrow {
+  border-radius: 5px;
+  background-color: #1d1d1d;
+  color: #ececec;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.rec.rec-arrow:hover {
+  border-radius: 50%;
+}
+
+.rec.rec-arrow:disabled {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 730px) {
+  .rec.rec-arrow {
+    display: none;
+  }
+}
+
+button.sc-bdvvtL.jRFJkP.rec.rec-arrow.rec.rec-arrow-left:hover, button.sc-bdvvtL.jRFJkP.rec.rec-arrow.rec.rec-arrow-left:active, button.sc-bdvvtL.jRFJkP.rec.rec-arrow.rec.rec-arrow-left:focus {
+  background-color: #d73737;
+}
+
+button.sc-bdvvtL.jRFJkP.rec.rec-arrow.rec.rec-arrow-right:hover, button.sc-bdvvtL.jRFJkP.rec.rec-arrow.rec.rec-arrow-right:active, button.sc-bdvvtL.jRFJkP.rec.rec-arrow.rec.rec-arrow-right:focus {
+  background-color: #d73737;
+}
+
+button.sc-gKclnd.eaptOe.rec.rec-dot:hover, button.sc-gKclnd.eaptOe.rec.rec-dot:active, button.sc-gKclnd.eaptOe.rec.rec-dot:focus {
+  -webkit-box-shadow: 0 0 1px 3px #d73737;
+          box-shadow: 0 0 1px 3px #d73737;
+}
+
+button.sc-gKclnd.lcUbOd.rec.rec-dot.rec.rec-dot_active {
+  background-color: #d73737;
+  -webkit-box-shadow: 0 0 1px 3px #d73737;
+          box-shadow: 0 0 1px 3px #d73737;
+}
+/*# sourceMappingURL=ProjectsCarousel.css.map */
