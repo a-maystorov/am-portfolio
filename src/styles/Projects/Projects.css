@@ -11,7 +11,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 8rem;
+  gap: 2rem;
   padding: 0 6rem 6rem 6rem;
   position: relative;
 }
