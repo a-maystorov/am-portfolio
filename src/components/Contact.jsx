@@ -46,6 +46,8 @@ const Contact = () => {
                 Message
               </label>
               <textarea
+                cols="30"
+                rows="10"
                 required
                 placeholder="Enter Your Message"
                 type="text"
@@ -54,6 +56,9 @@ const Contact = () => {
                 id="message"
                 spellCheck="false"></textarea>
             </div>
+            <button type="submit" className="btn-submit">
+              Submit
+            </button>
           </form>
         </div>
       </main>
