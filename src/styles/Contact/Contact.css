@@ -1,1 +1,90 @@
-/* No CSS *//*# sourceMappingURL=Contact.css.map */
+.Contact {
+  color: #141418;
+  background: #f2f4ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+  padding: 6rem;
+  position: relative;
+}
+
+.Contact header h2 {
+  position: relative;
+  font-size: 4rem;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.Contact header h2::after {
+  content: '';
+  position: absolute;
+  top: calc(100% + 1.5rem);
+  height: 5px;
+  width: 4rem;
+  background: #d73737;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .Contact header h2 {
+    font-size: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Contact header h2 {
+    font-size: 2.6rem;
+  }
+}
+
+.Contact header p {
+  font-size: 2rem;
+  font-weight: 500;
+  max-width: 70%;
+  text-align: center;
+  margin-inline: auto;
+  margin-top: 4rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .Contact header p {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Contact header p {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Contact header p {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .Contact {
+    padding: 4rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Contact {
+    padding: 2rem;
+  }
+}
+/*# sourceMappingURL=Contact.css.map */

@@ -8,15 +8,19 @@ import Projects from './components/Projects';
 
 // Styles
 import './App.css';
+import Contact from './components/Contact';
 
 const App = () => {
   return (
     <>
-      <Navbar />
+      <header>
+        <Navbar />
+      </header>
       <main>
         <Header />
         <About />
         <Projects />
+        <Contact />
       </main>
     </>
   );

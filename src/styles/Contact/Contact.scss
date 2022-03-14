@@ -1,0 +1,29 @@
+@import '../../variables/variables.scss';
+@import '../../mixins/mixins.scss';
+
+.Contact {
+  color: $gray-secondary;
+  background: $bg-primary;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 6rem;
+  position: relative;
+
+  & header {
+    @include header;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .Contact {
+    padding: 4rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Contact {
+    padding: 2rem;
+  }
+}
