@@ -61,6 +61,7 @@
         max-width: 280px;
         z-index: 990;
         @include btn;
+        color: $text-secondary;
       }
 
       @media screen and (max-width: 1024px) {
