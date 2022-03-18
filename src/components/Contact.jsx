@@ -1,6 +1,12 @@
+import { useForm, ValidationError } from '@formspree/react';
 import '../styles/Contact/Contact.css';
 
 const Contact = () => {
+  const [state, handleSubmit] = useForm('xnqwzozw');
+  if (state.succeeded) {
+    return <p className="submit-success">Thank you for your submission!</p>;
+  }
+
   return (
     <section className="Contact" id="Contact">
       <header>
@@ -12,7 +18,7 @@ const Contact = () => {
       </header>
       <main>
         <div className="contact__form-container">
-          <form action="#" className="contact__form" method="post">
+          <form className="contact__form" onSubmit={handleSubmit}>
             <div className="contact__form-field">
               <label htmlFor="name" className="contact__form-label">
                 Name
@@ -24,6 +30,11 @@ const Contact = () => {
                 className="contact__form-input"
                 name="name"
                 id="name"
+              />
+              <ValidationError
+                prefix="Name"
+                field="name"
+                errors={state.errors}
               />
             </div>
 
@@ -38,6 +49,11 @@ const Contact = () => {
                 className="contact__form-input"
                 name="email"
                 id="email"
+              />
+              <ValidationError
+                prefix="Email"
+                field="email"
+                errors={state.errors}
               />
             </div>
 
@@ -55,8 +71,16 @@ const Contact = () => {
                 name="message"
                 id="message"
                 spellCheck="false"></textarea>
+              <ValidationError
+                prefix="Message"
+                field="message"
+                errors={state.errors}
+              />
             </div>
-            <button type="submit" className="btn-submit">
+            <button
+              type="submit"
+              className="btn-submit"
+              disabled={state.submitting}>
               Submit
             </button>
           </form>

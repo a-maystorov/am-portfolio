@@ -134,3 +134,34 @@
     padding: 2rem;
   }
 }
+
+.submit-success {
+  color: $gray-primary;
+  font-size: 3rem;
+  padding: 3rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .submit-success {
+    font-size: 2.6rem;
+    padding: 2.6rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .submit-success {
+    font-size: 2rem;
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .submit-success {
+    font-size: 1.6rem;
+    padding: 1.6rem;
+  }
+}
