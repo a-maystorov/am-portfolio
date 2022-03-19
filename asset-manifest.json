@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/am-portfolio/static/css/main.220fc226.css",
-    "main.js": "/am-portfolio/static/js/main.7b228f6c.js",
-    "static/media/liquid-cheesex3.svg": "/am-portfolio/static/media/liquid-cheesex3.08c65118f7ad535e0d4f.svg",
-    "index.html": "/am-portfolio/index.html",
-    "main.220fc226.css.map": "/am-portfolio/static/css/main.220fc226.css.map",
-    "main.7b228f6c.js.map": "/am-portfolio/static/js/main.7b228f6c.js.map"
+    "main.css": "/alkinmaystorov.com/static/css/main.6722f1dc.css",
+    "main.js": "/alkinmaystorov.com/static/js/main.12fcdf92.js",
+    "static/media/liquid-cheesex3.svg": "/alkinmaystorov.com/static/media/liquid-cheesex3.08c65118f7ad535e0d4f.svg",
+    "index.html": "/alkinmaystorov.com/index.html",
+    "main.6722f1dc.css.map": "/alkinmaystorov.com/static/css/main.6722f1dc.css.map",
+    "main.12fcdf92.js.map": "/alkinmaystorov.com/static/js/main.12fcdf92.js.map"
   },
   "entrypoints": [
-    "static/css/main.220fc226.css",
-    "static/js/main.7b228f6c.js"
+    "static/css/main.6722f1dc.css",
+    "static/js/main.12fcdf92.js"
   ]
 }
