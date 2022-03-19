@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.271d78c8.css",
+    "main.js": "/static/js/main.93f065bc.js",
+    "static/media/liquid-cheesex3.svg": "/static/media/liquid-cheesex3.08c65118f7ad535e0d4f.svg",
+    "index.html": "/index.html",
+    "main.271d78c8.css.map": "/static/css/main.271d78c8.css.map",
+    "main.93f065bc.js.map": "/static/js/main.93f065bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.271d78c8.css",
+    "static/js/main.93f065bc.js"
+  ]
+}
