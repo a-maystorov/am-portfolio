@@ -1,0 +1,126 @@
+@import '../../variables/variables.scss';
+
+.Footer {
+  color: #fff;
+  background-color: #000;
+  position: relative;
+  padding: 5rem 6rem 4rem 5rem;
+  margin-top: -0.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  & .Footer__top-section {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding-bottom: 3rem;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: calc(100% + 1.5rem);
+      height: 4px;
+      width: 85%;
+      background: #d73737;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 5px;
+    }
+
+    & h2 {
+      font-size: 2rem;
+      padding-bottom: 1.8rem;
+    }
+
+    & p {
+      font-size: 1.4rem;
+    }
+
+    @media screen and (max-width: 540px) {
+      & h2 {
+        font-size: 1.8rem;
+        padding-bottom: 1.6rem;
+      }
+
+      & p {
+        font-size: 1.2rem;
+      }
+    }
+
+    & .Footer__top-section--col-1 {
+      width: 40%;
+    }
+
+    & .Footer__top-section--col-2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    & .socials-links {
+      display: flex;
+      gap: 1.5rem;
+
+      & svg {
+        width: 3rem;
+        height: 3rem;
+        fill: #fff;
+
+        &:hover {
+          fill: $red-primary;
+        }
+      }
+
+      @media screen and (max-width: 540px) {
+        & svg {
+          width: 2.5rem;
+          height: 2.5rem;
+        }
+      }
+    }
+
+    @media screen and (max-width: 540px) {
+      & .socials-links {
+        flex-direction: column;
+      }
+      & .Footer__top-section--col-1 {
+        width: 60%;
+      }
+    }
+  }
+
+  @media screen and (max-width: 729px) {
+    & .Footer__top-section {
+      justify-content: space-between;
+    }
+  }
+
+  & .Footer__bottom-section {
+    padding-top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & p {
+      font-size: 1.4rem;
+    }
+
+    & a {
+      color: #fff;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+
+      &:hover {
+        color: $red-primary;
+      }
+    }
+  }
+
+  @media screen and (max-width: 729px) {
+    & .Footer__bottom-section {
+      padding-bottom: 6rem;
+    }
+  }
+}

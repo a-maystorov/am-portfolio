@@ -212,6 +212,50 @@
   }
 }
 
+.Contact footer {
+  margin-top: 8rem;
+}
+
+.Contact footer .wave-opacity {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.Contact footer .wave-opacity svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 0.3rem);
+  height: 100px;
+}
+
+.Contact footer .wave-opacity .shape-fill {
+  fill: #000;
+}
+
+@media screen and (max-width: 1024px) {
+  .Contact footer .wave-opacity svg {
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Contact footer .wave-opacity svg {
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .Contact footer .wave-opacity svg {
+    height: 40px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .Contact {
     padding: 4rem;

@@ -1,0 +1,153 @@
+.Footer {
+  color: #fff;
+  background-color: #000;
+  position: relative;
+  padding: 5rem 6rem 4rem 5rem;
+  margin-top: -0.5rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Footer .Footer__top-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: relative;
+  padding-bottom: 3rem;
+}
+
+.Footer .Footer__top-section::after {
+  content: '';
+  position: absolute;
+  top: calc(100% + 1.5rem);
+  height: 4px;
+  width: 85%;
+  background: #d73737;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 5px;
+}
+
+.Footer .Footer__top-section h2 {
+  font-size: 2rem;
+  padding-bottom: 1.8rem;
+}
+
+.Footer .Footer__top-section p {
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 540px) {
+  .Footer .Footer__top-section h2 {
+    font-size: 1.8rem;
+    padding-bottom: 1.6rem;
+  }
+  .Footer .Footer__top-section p {
+    font-size: 1.2rem;
+  }
+}
+
+.Footer .Footer__top-section .Footer__top-section--col-1 {
+  width: 40%;
+}
+
+.Footer .Footer__top-section .Footer__top-section--col-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Footer .Footer__top-section .socials-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.Footer .Footer__top-section .socials-links svg {
+  width: 3rem;
+  height: 3rem;
+  fill: #fff;
+}
+
+.Footer .Footer__top-section .socials-links svg:hover {
+  fill: #d73737;
+}
+
+@media screen and (max-width: 540px) {
+  .Footer .Footer__top-section .socials-links svg {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .Footer .Footer__top-section .socials-links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Footer .Footer__top-section .Footer__top-section--col-1 {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 729px) {
+  .Footer .Footer__top-section {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.Footer .Footer__bottom-section {
+  padding-top: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Footer .Footer__bottom-section p {
+  font-size: 1.4rem;
+}
+
+.Footer .Footer__bottom-section a {
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.Footer .Footer__bottom-section a:hover {
+  color: #d73737;
+}
+
+@media screen and (max-width: 729px) {
+  .Footer .Footer__bottom-section {
+    padding-bottom: 6rem;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */
