@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/alkinmaystorov.com/static/css/main.6722f1dc.css",
-    "main.js": "/alkinmaystorov.com/static/js/main.12fcdf92.js",
-    "static/media/liquid-cheesex3.svg": "/alkinmaystorov.com/static/media/liquid-cheesex3.08c65118f7ad535e0d4f.svg",
-    "index.html": "/alkinmaystorov.com/index.html",
-    "main.6722f1dc.css.map": "/alkinmaystorov.com/static/css/main.6722f1dc.css.map",
-    "main.12fcdf92.js.map": "/alkinmaystorov.com/static/js/main.12fcdf92.js.map"
+    "main.css": "/static/css/main.cb3378aa.css",
+    "main.js": "/static/js/main.93f065bc.js",
+    "static/media/liquid-cheesex3.svg": "/static/media/liquid-cheesex3.08c65118f7ad535e0d4f.svg",
+    "index.html": "/index.html",
+    "main.cb3378aa.css.map": "/static/css/main.cb3378aa.css.map",
+    "main.93f065bc.js.map": "/static/js/main.93f065bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.6722f1dc.css",
-    "static/js/main.12fcdf92.js"
+    "static/css/main.cb3378aa.css",
+    "static/js/main.93f065bc.js"
   ]
 }
