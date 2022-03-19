@@ -256,6 +256,74 @@
   }
 }
 
+.Contact .submit-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Contact .submit-header svg {
+  width: 50px;
+  height: 50px;
+  fill: lightgreen;
+}
+
+.Contact .submit-success {
+  color: #1d1d1d;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+
+.Contact .submit-success::after {
+  content: '';
+  position: absolute;
+  top: calc(100% + 1.5rem);
+  height: 5px;
+  width: 25%;
+  background: #d73737;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .Contact .submit-success {
+    font-size: 2.6rem;
+    padding: 2.6rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Contact .submit-success {
+    font-size: 2rem;
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .Contact .submit-success {
+    font-size: 1.6rem;
+    padding: 1.6rem;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .Contact {
     padding: 4rem;
@@ -265,37 +333,6 @@
 @media screen and (max-width: 800px) {
   .Contact {
     padding: 2rem;
-  }
-}
-
-.submit-success {
-  color: #1d1d1d;
-  font-size: 3rem;
-  padding: 3rem;
-  font-weight: 600;
-  letter-spacing: 0.2rem;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-@media screen and (max-width: 1024px) {
-  .submit-success {
-    font-size: 2.6rem;
-    padding: 2.6rem;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .submit-success {
-    font-size: 2rem;
-    padding: 2rem;
-  }
-}
-
-@media screen and (max-width: 540px) {
-  .submit-success {
-    font-size: 1.6rem;
-    padding: 1.6rem;
   }
 }
 /*# sourceMappingURL=Contact.css.map */
