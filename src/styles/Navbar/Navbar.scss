@@ -36,6 +36,10 @@
     &:last-child {
       margin-top: auto;
     }
+
+    & .cv {
+      background: red;
+    }
   }
 
   & .nav-link {

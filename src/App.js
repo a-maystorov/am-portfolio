@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 // Components
 import Navbar from './components/Navbar';
@@ -11,11 +11,21 @@ import Footer from './components/Footer';
 // Styles
 import './App.css';
 
+const innerWidth = window.innerWidth;
+
 const App = () => {
+  const [windowWidth, setWindowWidth] = useState(innerWidth);
+
+  useEffect(() => {
+    window.addEventListener('resize', function () {
+      setWindowWidth(window.innerWidth);
+    });
+  });
+
   return (
     <>
       <header>
-        <Navbar />
+        <Navbar windowWidth={windowWidth} />
       </header>
       <main>
         <Header />

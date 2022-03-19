@@ -49,6 +49,10 @@
   margin-top: auto;
 }
 
+.nav .nav-item .cv {
+  background: red;
+}
+
 .nav .nav-link {
   display: -webkit-box;
   display: -ms-flexbox;
