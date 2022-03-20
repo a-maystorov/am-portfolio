@@ -14,14 +14,14 @@ const About = () => {
         <article className="about__personal-profile">
           <h3>Get to know me!</h3>
           <p>
-            Hello, my name is Alkin Maystorov. I am an aspiring{' '}
-            <strong>Front-End</strong> focused <strong>Web Developer</strong>,
-            knowledgeable in backend technologies and services such as{' '}
-            <strong>Node</strong> and <strong>Firebase</strong>. I love building{' '}
-            <strong>Websites</strong> and <strong>Web Applications</strong>{' '}
-            using contrasting web technologies and solving problems for
-            different niches and industries using the power of technology. Check
-            out some of my work in the <strong>Projects</strong> section.
+            Hello, my name is Alkin Maystorov. I am a <strong>Front-End</strong>{' '}
+            focused <strong>Web Developer</strong>, knowledgeable in backend
+            technologies and services such as <strong>Node</strong> and{' '}
+            <strong>Firebase</strong>. I love building <strong>Websites</strong>{' '}
+            and <strong>Web Applications</strong> using contrasting web
+            technologies and solving problems for different niches and
+            industries using the power of technology. Check out some of my work
+            in the <strong>Projects</strong> section.
           </p>
           <p>
             <strong>Clean code</strong> and the room for never-ending{' '}

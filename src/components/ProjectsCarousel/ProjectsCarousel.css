@@ -1,7 +1,7 @@
 .carousel-wrapper {
   width: 100%;
   max-width: 900px;
-  margin-bottom: 3rem;
+  margin-bottom: 6rem;
 }
 
 .rec.rec-swipable {
@@ -11,7 +11,7 @@
 }
 
 .project {
-  max-height: 900px;
+  max-height: 950px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,6 +22,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 1rem;
 }
 
 .project header {
@@ -37,10 +38,12 @@
 }
 
 .project img {
+  -o-object-fit: cover;
+     object-fit: cover;
   background-color: #1d1d1d;
   border-radius: 5px;
-  width: 92.5%;
-  height: 92%;
+  width: 94.5%;
+  height: 98.5%;
   padding: 1.5rem;
   -webkit-box-shadow: 0px 11px 9px -6px rgba(29, 29, 29, 0.59);
           box-shadow: 0px 11px 9px -6px rgba(29, 29, 29, 0.59);
@@ -204,20 +207,20 @@
   }
 }
 
-button.sc-bdvvtL.fVgyLU.rec.rec-arrow.rec.rec-arrow-left:hover, button.sc-bdvvtL.fVgyLU.rec.rec-arrow.rec.rec-arrow-left:active, button.sc-bdvvtL.fVgyLU.rec.rec-arrow.rec.rec-arrow-left:focus {
+.rec.rec-arrow.rec-arrow-left:hover, .rec.rec-arrow.rec-arrow-left:active, .rec.rec-arrow.rec-arrow-left:focus {
   background-color: #d73737;
 }
 
-button.sc-bdvvtL.fVgyLU.rec.rec-arrow.rec.rec-arrow-right:hover, button.sc-bdvvtL.fVgyLU.rec.rec-arrow.rec.rec-arrow-right:active, button.sc-bdvvtL.fVgyLU.rec.rec-arrow.rec.rec-arrow-right:focus {
+.rec.rec-arrow.rec-arrow-right:hover, .rec.rec-arrow.rec-arrow-right:active, .rec.rec-arrow.rec-arrow-right:focus {
   background-color: #d73737;
 }
 
-button.sc-gKclnd.gpDNSX.rec.rec-dot:hover, button.sc-gKclnd.gpDNSX.rec.rec-dot:active, button.sc-gKclnd.gpDNSX.rec.rec-dot:focus {
+.rec.rec-dot:hover, .rec.rec-dot:active, .rec.rec-dot:focus {
   -webkit-box-shadow: 0 0 1px 3px #d73737;
           box-shadow: 0 0 1px 3px #d73737;
 }
 
-button.sc-gKclnd.bBjxWM.rec.rec-dot.rec.rec-dot_active {
+.rec.rec-dot_active {
   background-color: #d73737;
   -webkit-box-shadow: 0 0 1px 3px #d73737;
           box-shadow: 0 0 1px 3px #d73737;
