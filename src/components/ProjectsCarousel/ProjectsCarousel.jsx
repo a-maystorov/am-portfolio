@@ -46,7 +46,7 @@ const ProjectsCarousel = () => {
         {projects.map((project) => (
           <div key={project.id} className="project">
             <header>
-              <img src={project.image} alt="project" />
+              <img src={project.image} alt="project preview" />
             </header>
             <main>
               <div className="project-details">
@@ -88,7 +88,11 @@ const ProjectsCarousel = () => {
               </div>
 
               <div className="project-links">
-                <a href={project.code} target="_blank" rel="noreferrer">
+                <a
+                  href={project.code}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="a link that navigates to the current project code repository.">
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
@@ -99,7 +103,11 @@ const ProjectsCarousel = () => {
                   </svg>
                 </a>
 
-                <a href={project.live} target="_blank" rel="noreferrer">
+                <a
+                  href={project.live}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="a link that navigates to the current project live website.">
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
