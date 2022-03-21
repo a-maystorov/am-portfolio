@@ -84,7 +84,7 @@ const Navbar = ({ windowWidth }) => {
           </a>
         </li>
 
-        <div className="nav-list--bottom nav-item">
+        <li className="nav-list--bottom nav-item">
           <ul className="nav-list">
             <li className={`nav-item ${windowWidth < 730 ? 'd-none' : null}`}>
               <a
@@ -132,7 +132,7 @@ const Navbar = ({ windowWidth }) => {
               </a>
             </li>
           </ul>
-        </div>
+        </li>
       </ul>
     </nav>
   );
