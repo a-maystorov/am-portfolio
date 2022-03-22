@@ -30,10 +30,10 @@ const About = () => {
             with a team that I can get along with to grow the company name.
           </p>
           <p>
-            I would love to hear from you, whether it's a project,{' '}
-            <strong>job</strong> opportunity, or just a chat. All of my projects
-            can be found on my Github, and feel free to <strong>contact</strong>{' '}
-            me.
+            I would love to hear from you, whether it's a{' '}
+            <strong>project</strong>, <strong>job</strong> opportunity, or just
+            a <strong>chat</strong>. All of my projects can be found on my
+            Github, and feel free to <strong>contact</strong> me.
           </p>
           <a href="#Contact" className="btn-contact">
             Contact
